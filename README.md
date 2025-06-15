@@ -1,1 +1,36 @@
-# micro-organismos-detect
+# Red neuronal para la deteccion y clasificacion de micro organismos
+
+## Objetivo
+
+El objetivo de este proyecto es desarrollar un sistema de inteligencia artificial basado en redes neuronales convolucionales (CNN) capaz de detectar y clasificar diferentes tipos de microorganismos a partir de imágenes microscópicas.
+
+<br>
+
+
+## Tech Stack
+
+General
+* Python: Lenguaje principal para el desarrollo del modelo.
+* Docker: Para contenerizar el servicio de análisis y facilitar su despliegue.
+* Git / GitHub: Para el control de versiones y la colaboración en el código.
+
+
+## Análisis de Imágenes
+
+* TensorFlow / Keras: Framework para la creación y entrenamiento de redes neuronales.
+* OpenCV: Biblioteca para el procesamiento de imágenes (opcional para preprocesamiento).
+* FastAPI (pendiente): Framework para construir la API que servirá el modelo de clasificación.
+
+
+## Entrenamiento del Modelo
+
+* MobileNetV2 / ResNet50: Modelos preentrenados utilizados con Transfer Learning.
+* Jupyter Notebooks: Para experimentación y análisis durante el desarrollo.
+
+
+## Resultados Esperados
+
+* Alta precisión en la clasificación de microorganismos.
+* Reducción del tiempo de análisis manual.
+* Base funcional para la integración en sistemas de monitoreo ambiental.
+
