@@ -11,7 +11,6 @@ El objetivo de este proyecto es desarrollar un sistema de inteligencia artificia
 
 General
 * Python: Lenguaje principal para el desarrollo del modelo.
-* Docker: Para contenerizar el servicio de análisis y facilitar su despliegue.
 * Git / GitHub: Para el control de versiones y la colaboración en el código.
 
 
@@ -34,3 +33,24 @@ General
 * Reducción del tiempo de análisis manual.
 * Base funcional para la integración en sistemas de monitoreo ambiental.
 
+
+## Uso del programa
+
+### Crear una carpeta virtual para el uso de las dependencias 
+
+```python
+python3 -m venv venv
+```
+
+### Iniciar la carpeta virtual del proyecto
+
+```bash
+source venv/bin/activate
+```
+
+### Instalar paquetes necesarios dentro de la carpeta virtual
+
+```bash
+pip install --upgrade pip
+pip install tensorflow matplotlib opencv-python numpy scikit-learn nvidia-cuda-runtime-cu12
+```

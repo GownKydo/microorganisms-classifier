@@ -1,0 +1,5 @@
+tensorflow==2.20.0  # Versión recomendada de TensorFlow. Cambia según tu entorno o necesidad (por ejemplo, tensorflow-gpu).
+numpy==1.24.0       # Dependencia para manejar operaciones numéricas.
+matplotlib==3.7.1   # Para generar gráficos de entrenamiento y validación.
+scikit-learn==1.2.0 # Para dividir datos y usar técnicas de evaluación, si se necesita.
+opencv-python==4.7.0 # Para leer, procesar y mostrar imágenes si es necesario.
