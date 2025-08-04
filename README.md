@@ -18,14 +18,6 @@ General
 
 * TensorFlow / Keras: Framework para la creación y entrenamiento de redes neuronales.
 * OpenCV: Biblioteca para el procesamiento de imágenes (opcional para preprocesamiento).
-* FastAPI (pendiente): Framework para construir la API que servirá el modelo de clasificación.
-
-
-## Entrenamiento del Modelo
-
-* MobileNetV2 / ResNet50: Modelos preentrenados utilizados con Transfer Learning.
-* Jupyter Notebooks: Para experimentación y análisis durante el desarrollo.
-
 
 ## Resultados Esperados
 
@@ -36,11 +28,21 @@ General
 
 ## Uso del programa
 
+### Organizamiento del dataset
+
+Mover las imagenes dentro de la carpeta **_"data/train/"_** y correr el codigo en python con el nombre de **"restructure_dataset.py"**, con la finalidad de poder hacer un cambio de nombre para el correcto entrenamiento de la red convolucional.
+
+```bash
+python3 restructure_dataset.py
+```
+
 ### Crear una carpeta virtual para el uso de las dependencias 
 
 ```python
 python3 -m venv venv
 ```
+
+> Instalacion de venv: `sudo apt install python3-venv`
 
 ### Iniciar la carpeta virtual del proyecto
 
