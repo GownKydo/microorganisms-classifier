@@ -1,4 +1,6 @@
-# Entrenamiento del modelo CNN
+"""
+Entrenamiento del modelo CNN
+"""
 
 from src.model import build_model
 from src.utils import get_data_generators
